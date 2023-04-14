@@ -135,13 +135,7 @@ Container(height: 30,child:
                     ,onTap: (){
                       gotoSelectedPage(1);
                     }) ;
-                // YoYoPlayer(
-                //   aspectRatio: 16 / 9,
-                //  url:  "https://stream.englishturbo.com/s4vbasd4kpti/embed",
-                // // url:  widget.courseSliderModel.videos[position],
-                //   videoStyle: VideoStyle(),
-                //   videoLoadingStyle: VideoLoadingStyle(),
-               // );
+
             },
               onPageChanged: (index){
                 setState(() {

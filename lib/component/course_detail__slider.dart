@@ -106,9 +106,8 @@ class _CourseDetailSliderState extends State<CourseDetailSlider> {
 
                 YoYoPlayer(
                   aspectRatio: 16 / 9,
-               //  url: widget.videos[position],
-                url:"https://assets.afcdn.com/video49/20210722/v_645516.m3u8", //"https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
-                  videoStyle: VideoStyle(),
+                 url: widget.videos[position],
+                 videoStyle: VideoStyle(),
                   videoLoadingStyle: VideoLoadingStyle(),
                );
             },

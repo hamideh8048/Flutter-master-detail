@@ -40,8 +40,7 @@ class _SingleCourseDetailSliderState extends State<SingleCourseDetailSlider> {
       aspectRatio: 16 / 9,
       //url:
    //  widget.videos[0],
-      url:"https://assets.afcdn.com/video49/20210722/v_645516.m3u8", //
-    //"https://assets.afcdn.com/video49/20210722/v_645516.m3u8",
+      url:"", //
 
       videoStyle: VideoStyle(),
       videoLoadingStyle: VideoLoadingStyle(),
